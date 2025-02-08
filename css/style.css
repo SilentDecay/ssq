@@ -692,7 +692,7 @@ header .navBar a {
     letter-spacing: -0.2px;
 }
 
-.money p:nth-child(3) {
+.money p:nth-child(4) {
     color: var(--1, #2E363E);
     font-family: Novelist;
     font-size: 48px;
@@ -710,7 +710,6 @@ header .navBar a {
 .money .images {
     display: flex;
     gap: 1%;
-    margin-top: -50px;
 }
 
 .money .images img {
