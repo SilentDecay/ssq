@@ -1,0 +1,1303 @@
+@font-face {
+    font-family: "Novelist";
+    src: url("../fonts/Novelist-Display.woff2") format("woff2"),
+         url("../fonts/Novelist-Display.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Novelist';
+}
+
+.wrapper {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.center {
+    max-width: 1780px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 50;
+}
+
+header h4 {
+    color: var(--Primary, #2947A9);
+    font-family: Novelist;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+header .navBar {
+    display: flex;
+    gap: 63px;
+    align-items: center;
+}
+
+header .navBar a {
+    color: var(--Neutral-900, #14171F);
+    font-family: Novelist;
+    font-size: 22.726px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: normal;
+}
+
+
+/* baner */
+
+.baner {
+    width: 100%;
+    margin-top: 100px;
+    height: 846px;
+    background-image: url('../images/baner.png');
+}
+
+/* baner */
+
+
+/* aboutUs */
+
+.aboutUs {
+    margin-top: 168px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutUs .title {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 883px;
+}
+
+.aboutUs .title span {
+    color: var(--1, #2E363E);
+    font-family: Novelist;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 9px 23px;
+    border-radius: 6.519px;
+    background: var(--11, #F2F6FA);
+    width: max-content;
+}
+
+.aboutUs .title h2 {
+    color: #35393D;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Novelist;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 94px; /* 97.917% */
+    letter-spacing: -1px;
+}
+
+.aboutUs .content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.aboutUs .content img {
+    height: 590px;
+    transform: rotate(30deg);
+}
+
+.aboutUs .content p {
+    color: #35393D;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Novelist;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 69px; /* 132.692% */
+    letter-spacing: -1px;
+    width: 942px;
+}
+
+/* aboutUs */
+
+
+/* finance */
+
+.finance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.finance .title {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.finance .title span {
+    color: var(--1, #2E363E);
+    font-family: Novelist;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 9px 23px;
+    border-radius: 6.519px;
+    background: var(--11, #F2F6FA);
+    width: max-content;
+}
+
+.finance .title h2 {
+    color: #35393D;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Novelist;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 125% */
+    letter-spacing: -1px;
+}
+
+.finance .items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-between;
+}
+
+.finance .items .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.finance .items .item p {
+    color: #35393D;
+    font-family: Novelist;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+/* finance */
+
+
+
+/* money */
+
+.money {
+    display: flex;
+    flex-direction: column;
+    gap: 86px;
+    margin-top: 107px;
+}
+
+.money .title h2 {
+    color: #35393D;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Novelist;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 91px; /* 94.792% */
+    letter-spacing: -1px;
+    width: 957px;
+}
+
+.money .content {
+    display: flex;
+    gap: 23px;
+    align-items: start;
+}
+
+.money .content img {
+    height: 520px;
+}
+
+.money .content p {
+    color: var(--1, #2E363E);
+    font-family: Novelist;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143%; /* 68.64px */
+    letter-spacing: -0.2px;
+}
+
+/* money */
+
+
+/* goal */
+
+.goal {
+    margin-top: 160px;
+}
+
+.goal .title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+}
+
+.goal .title .mobileImages {
+    display: none;
+}
+
+.goal .title h2 {
+    color: #000;
+    font-family: Novelist;
+    font-size: 64.691px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108.4%;
+    width: 900px;
+    text-align: center;
+}
+
+.goal .title span {
+    color: #F7B90F;
+    text-align: center;
+    font-family: Novelist;
+    font-size: 64.691px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108.4%; /* 70.125px */
+}
+
+.goal .title img {
+    position: absolute;
+    z-index: -1;
+}
+
+.goal .title img:nth-child(2) {
+    left: 0;
+}
+
+.goal .title img:nth-child(5) {
+    right: 0;
+    top: 50px;
+}
+
+/* goal */
+
+
+/* partners */
+
+.partners {
+    margin-top: 126px;
+    display: flex;
+    flex-direction: column;
+    gap: 104px;
+    align-items: center;
+}
+
+.partners .title h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #35393D;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Novelist;
+    font-size: 64.69px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+.partners .title h2 span {
+    color: #F7B90F;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Novelist;
+    font-size: 64.69px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 92.75% */
+}
+
+.partners .gallery:nth-child(2) {
+    grid-template-rows: 1fr;
+}
+
+.partners .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 27px;
+    column-gap: 58px;
+    justify-content: center;
+}
+
+.partners .gallery img {
+    width: 100%;
+}
+
+/* partners */
+
+
+/* contactInfo */
+
+.contactInfo {
+    margin-top: 390px;
+    width: 100%;
+}
+
+.contactInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.contactInfo img {
+    height: 750px;
+}
+
+.contactInfo .mobile {
+    display: none;
+}
+
+.contactInfo .right {
+    display: flex;
+    flex-direction: column;
+    gap: 223px;
+    padding-left: 59px;
+}
+
+.contactInfo .right .title {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactInfo .right .title p {
+    color: var(--1, #2E363E);
+    font-family: Novelist;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143%; /* 68.64px */
+    letter-spacing: -0.2px;
+}
+
+.contactInfo .right .contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contactInfo .right .contacts a {
+    color: var(--1, #2E363E);
+    font-family: Novelist;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143%; /* 68.64px */
+    letter-spacing: -0.2px;
+    text-decoration: none;
+}
+
+/* contactInfo */
+@font-face {
+    font-family: "Novelist";
+    src: url("../fonts/Novelist-Display.woff2") format("woff2"),
+         url("../fonts/Novelist-Display.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Novelist';
+}
+
+.wrapper {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.center {
+    max-width: 1780px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header h4 {
+    color: var(--Primary, #2947A9);
+    font-family: Novelist;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+header .navBar {
+    display: flex;
+    gap: 63px;
+    align-items: center;
+}
+
+header .navBar a {
+    color: var(--Neutral-900, #14171F);
+    font-family: Novelist;
+    font-size: 22.726px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: normal;
+}
+
+
+/* baner */
+
+.baner {
+    width: 100%;
+    margin-top: 100px;
+    height: 846px;
+    background-image: url('../images/baner.png');
+}
+
+/* baner */
+
+
+/* aboutUs */
+
+.aboutUs {
+    margin-top: 168px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutUs .title {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 883px;
+}
+
+.aboutUs .title span {
+    color: var(--1, #2E363E);
+    font-family: Novelist;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 9px 23px;
+    border-radius: 6.519px;
+    background: var(--11, #F2F6FA);
+    width: max-content;
+}
+
+.aboutUs .title h2 {
+    color: #35393D;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Novelist;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 94px; /* 97.917% */
+    letter-spacing: -1px;
+}
+
+.aboutUs .content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.aboutUs .content img {
+    height: 590px;
+    transform: rotate(30deg);
+}
+
+.aboutUs .content p {
+    color: #35393D;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Novelist;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 69px; /* 132.692% */
+    letter-spacing: -1px;
+    width: 942px;
+}
+
+/* aboutUs */
+
+
+/* finance */
+
+.finance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.finance .title {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.finance .title span {
+    color: var(--1, #2E363E);
+    font-family: Novelist;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 9px 23px;
+    border-radius: 6.519px;
+    background: var(--11, #F2F6FA);
+    width: max-content;
+}
+
+.finance .title h2 {
+    color: #35393D;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Novelist;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 125% */
+    letter-spacing: -1px;
+}
+
+.finance .items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-between;
+}
+
+.finance .items .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.finance .items .item p {
+    color: #35393D;
+    font-family: Novelist;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+/* finance */
+
+
+
+/* money */
+
+.money {
+    display: flex;
+    flex-direction: column;
+    gap: 86px;
+    margin-top: 107px;
+}
+
+.money .title h2 {
+    color: #35393D;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Novelist;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 91px; /* 94.792% */
+    letter-spacing: -1px;
+    width: 957px;
+}
+
+.money .content {
+    display: flex;
+    gap: 23px;
+    align-items: start;
+}
+
+.money .content img {
+    height: 520px;
+}
+
+.money .content p {
+    color: var(--1, #2E363E);
+    font-family: Novelist;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143%; /* 68.64px */
+    letter-spacing: -0.2px;
+}
+
+.money p:nth-child(3) {
+    color: var(--1, #2E363E);
+    font-family: Novelist;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143%; /* 68.64px */
+    letter-spacing: -0.2px;
+    margin-top: -30px;
+}
+
+.money p:nth-child(3) a {
+    text-decoration: underline;
+}
+
+.money .images {
+    display: flex;
+    gap: 1%;
+    margin-top: -50px;
+}
+
+.money .images img {
+    width: 33%;
+    object-fit: cover;
+}
+
+/* money */
+
+
+/* goal */
+
+.goal {
+    margin-top: 160px;
+}
+
+.goal .title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+}
+
+.goal .title h2 {
+    color: #000;
+    font-family: Novelist;
+    font-size: 64.691px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108.4%;
+    width: 900px;
+    text-align: center;
+}
+
+.goal .title span {
+    color: #F7B90F;
+    text-align: center;
+    font-family: Novelist;
+    font-size: 64.691px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108.4%; /* 70.125px */
+}
+
+.goal .title img {
+    position: absolute;
+    z-index: -1;
+}
+
+.goal .title img:first-child {
+    left: 0;
+}
+
+.goal .title img:nth-child(4) {
+    right: 0;
+    top: 50px;
+}
+
+/* goal */
+
+
+/* partners */
+
+.partners {
+    margin-top: 126px;
+    display: flex;
+    flex-direction: column;
+    gap: 104px;
+    align-items: center;
+}
+
+.partners .title h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #35393D;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Novelist;
+    font-size: 64.69px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+.partners .title h2 span {
+    color: #F7B90F;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Novelist;
+    font-size: 64.69px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 92.75% */
+}
+
+.partners .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 27px;
+    column-gap: 58px;
+    justify-content: center;
+}
+
+/* partners */
+
+
+/* contactInfo */
+
+.contactInfo {
+    margin-top: 390px;
+    width: 100%;
+}
+
+.contactInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.contactInfo img {
+    height: 750px;
+}
+
+.contactInfo .mobile {
+    display: none;
+}
+
+.contactInfo .right {
+    display: flex;
+    flex-direction: column;
+    gap: 223px;
+    padding-left: 59px;
+}
+
+.contactInfo .right .title {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactInfo .right .title p {
+    color: var(--1, #2E363E);
+    font-family: Novelist;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143%; /* 68.64px */
+    letter-spacing: -0.2px;
+}
+
+.contactInfo .right .contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contactInfo .right .contacts a,
+.contactInfo .right .contacts span {
+    color: var(--1, #2E363E);
+    font-family: Novelist;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143%; /* 68.64px */
+    letter-spacing: -0.2px;
+}
+
+.contactInfo .right .contacts a {
+    text-decoration: underline;
+}
+
+
+
+/* contactInfo */
+
+
+
+/* media */
+
+@media screen and (max-width: 1900px) {
+    .wrapper {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .center {
+        max-width: 95%;
+    }
+
+    .baner {
+        background-size: contain;
+        height: 100%;
+        padding-top: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .finance .items {
+        column-gap: 20px;
+    }
+
+    .finance .items .item img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .finance .title h2 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .aboutUs {
+        margin-top: 0px;
+    }
+
+    .aboutUs .content {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .aboutUs .content img {
+        height: 500px;
+    }
+
+    .aboutUs .content p {
+        width: 100%;
+    }
+
+    .finance {
+        margin-top: 70px;
+    }
+
+    .money .content {
+        flex-direction: column;
+    }
+
+    .goal .title img {
+        height: 50%;
+    }
+
+    .partners .gallery img {
+        object-fit: contain;
+        height: 100%;
+        width: 100%;
+    }
+
+    .contactInfo img {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .contactInfo .right .contacts a,
+    .contactInfo .right .title p {
+        font-size: 28px;
+    }
+
+    .contactInfo .descTop {
+        display: none;
+    }
+
+    .contactInfo .mobile {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        padding: 24px 40px;
+    }
+
+    header h4 {
+        color: var(--Primary, #2947A9);
+        font-family: Novelist;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    header .navBar {
+        gap: 20px;
+    }
+
+    header .navBar a {
+        color: var(--Neutral-900, #14171F);
+        font-family: Novelist;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .aboutUs .title h2 {
+        font-size: 50px;
+        line-height: 140%;
+    }
+
+    .aboutUs .title {
+        width: 100%;
+    }
+
+    .aboutUs .content img {
+        height: 350px;
+    }
+
+    .aboutUs .content p {
+        font-size: 32px;
+        line-height: 140%;
+    }
+
+    .finance .items .item p {
+        font-size: 28px;
+    }
+
+    .money .content img {
+        height: 350px;
+    }
+
+    .money .title h2 {
+        font-size: 60px;
+        width: 100%;
+    }
+
+    .goal .title h2,
+    .goal .title span {
+        font-size: 40px;
+        width: 80%;
+    }
+
+    .contactInfo img {
+        height: 300px;
+        align-self: flex-start;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .finance .items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .money .content img {
+        height: 300px;
+    }
+    
+    .partners .gallery {
+        gap: 10px;
+    }
+
+    .contactInfo {
+        margin-top: 80px;
+    }
+
+    .contactInfo .right .contacts a, 
+    .contactInfo .right .title p {
+        font-size: 11px;
+    }
+
+    .contactInfo .right {
+        gap: 30px
+    }
+
+    .contactInfo .right .contacts {
+        gap: 10px;
+    }
+
+    .contactInfo img {
+        height: 161px;
+    }
+
+    .contactInfo .right {
+        padding-left: 5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .goal {
+        margin-top: 90px;
+    }
+
+    .goal .title img {
+        height: 88px;
+    }
+
+    .goal .title img {
+        top: -10px !important;
+    }
+
+    .partners {
+        margin-top: 70px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .aboutUs {
+        margin-top: 50px;
+        gap: 0;
+    }
+
+    header .navBar a {
+        font-size: 8px;
+    }
+
+    .aboutUs .title span {
+        font-size: 8px;
+    }
+
+    .aboutUs .title h2 {
+        font-size: 22px;
+    }
+
+    .aboutUs .title {
+        align-items: center;
+    }
+
+    .aboutUs .content {
+        align-items: center;
+    }
+
+    .aboutUs .content img {
+        height: 180px;
+        transform: rotate(35deg);
+    }
+
+    .aboutUs .content p {
+        font-size: 18px;
+        width: 340px;
+        letter-spacing: -0.2px;
+        text-align: center;
+    }
+
+    .finance .items .item p {
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .finance .title h2 {
+        font-size: 22px;
+        line-height: 140%;
+        margin-bottom: -40px;
+        z-index: 10;
+    }
+
+    .finance .title span {
+        font-size: 8px;
+    }
+
+    .finance .title {
+        gap: 0;
+    }
+
+    .money .title h2 {
+        font-size: 22px;
+        text-align: center;
+        line-height: 200%;
+    }
+
+    .money {
+        gap: 0;
+        margin-top: 80px;
+    }
+
+    .money .content {
+        align-items: center;
+        gap: 0;
+    }
+
+    .money .content p,
+    .money p:nth-child(3) {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .money p:nth-child(3) {
+        margin-top: 15px;
+    }
+
+    .money .content img {
+        height: 160px;
+    }
+
+    .partners .title h2 {
+        font-size: 22px;
+        line-height: 120%;
+    }
+
+    .partners .title h2 span {
+        font-size: 22px;
+        line-height: 120%;
+    }
+
+    .partners {
+        gap: 30px;
+    }
+
+    .goal .title img {
+        position: static;
+    }
+
+    .goal .title {
+        gap: 10px;
+    }
+
+    .goal .title h2 {
+        font-size: 18px;
+        width: 90%;
+    }
+
+    .goal .title span {
+        font-size: 22px;
+        width: 90%;
+    }
+
+    .contactInfo {
+        flex-direction: column;
+    }
+
+    .contactInfo .right {
+        align-items: center;
+        gap: 10px;
+    }
+
+    .contactInfo .right .title p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .contactInfo img {
+        height: 250px;
+        align-self: center;
+    }
+
+    .contactInfo .right .contacts  {
+        margin-top: 10px;
+    }
+
+    .contactInfo .right .contacts a,
+    .contactInfo .right .contacts span{
+        font-size: 18px;
+        align-self: center;
+        text-align: center;
+    }
+
+    .goal .title .mobileImages {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .goal .title .mobileImages img {
+        display: block !important;
+    }
+
+    .goal .title .mobileImages:first-child {
+
+    }
+
+    .goal .title .mobileImages img {
+        object-fit: contain;
+        width: 33%;
+        height: 100%;
+    }
+
+    .goal .title img:nth-child(2),
+    .goal .title img:nth-child(5) {
+        display: none;
+    }
+
+    .money .images {
+        margin-top: 0;
+    }
+
+    .money .images {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .money .images img {
+        width: 100%;
+    }
+
+}
