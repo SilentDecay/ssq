@@ -1113,6 +1113,11 @@ header .navBar a {
 
 
 @media screen and (max-width: 500px) {
+    .money p:nth-child(4) {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
     .aboutUs {
         margin-top: 50px;
         gap: 0;
@@ -1211,7 +1216,7 @@ header .navBar a {
     }
 
     .partners {
-        gap: 30px;
+        gap: 10px;
     }
 
     .goal .title img {
