@@ -701,6 +701,7 @@ header .navBar a {
     line-height: 143%; /* 68.64px */
     letter-spacing: -0.2px;
     margin-top: -30px;
+    text-align: center;
 }
 
 .money p:nth-child(3) a {
@@ -1292,7 +1293,7 @@ header .navBar a {
     }
 
     .money .images {
-        margin-top: 0;
+        margin-top: 15px;
     }
 
     .money .images {
